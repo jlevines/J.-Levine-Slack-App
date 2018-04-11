@@ -1,12 +1,11 @@
-from decouple import config
-
-from src.json import Opportunity_Accepted, Opportunity_Rejected, Opportunity_Junked
-import json
-from src.models.zoho_crm import Record
-from src.common.util import get_from_fields
-
-
 def hub(data):
+    from decouple import config
+
+    from src.json import Opportunity_Accepted, Opportunity_Rejected, Opportunity_Junked
+    import json
+    from src.models.zoho_crm import Record
+    from src.common.util import get_from_fields
+
     value = json.loads(data['actions'][0]['value'])
     target = data['user']['id']
     bot_token = config("Slackbot_Token", cast=str)
