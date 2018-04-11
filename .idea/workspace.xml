@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43c8b9b9-dded-4c82-a48b-58049ed39785" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/accepted_opp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zaps/[Contract Channel] New Contract Notification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zaps/[Hub] Slack App Hub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zaps/[Lead] New Lead Round Robin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zaps/[Lead] Round Robin Follow-Up.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zaps/[Leads] Assigned Opportunity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zaps/[Transportation] Send Slack Notification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zaps/play.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zaps/slack_playground" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json/New_Opportuntiy_Message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json/Opportunity_Accepted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json/Opportunity_Expired.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json/Opportunity_Junked.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json/Opportunity_Rejected.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/New_Contract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/New_Opportunity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/Opportunity_Followup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/Slack_Hub.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/slack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/zoho_crm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +45,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -86,6 +53,15 @@
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/runtime.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -159,6 +135,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="New_Opportunity.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logic/New_Opportunity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -184,7 +169,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/uwsgi.ini" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/Zaps/[Contract Channel] New Contract Notification.py" />
@@ -217,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/logic/Slack_Hub.py" />
         <option value="$PROJECT_DIR$/src/common/util.py" />
         <option value="$PROJECT_DIR$/src/app.py" />
+        <option value="$PROJECT_DIR$/runtime.txt" />
       </list>
     </option>
   </component>
@@ -574,11 +559,11 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32982087" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" x="1920" y="631" width="1366" height="713" id="Python Console" order="7" type="WINDOWED" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49293563" visible="true" weight="0.18783352" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49293563" visible="true" weight="0.18783352" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
@@ -827,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runtime.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -964,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/New_Opportunity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/json/Opportunity_Expired.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1057,16 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logic/Slack_Hub.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1077,6 +1038,30 @@
             <element signature="e#1114#1219#0" />
             <element signature="e#1241#1608#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/New_Opportunity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
