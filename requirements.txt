@@ -1,0 +1,4 @@
+requests
+uwsgi
+python-decouple
+Flask

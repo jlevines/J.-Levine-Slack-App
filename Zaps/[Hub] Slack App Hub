@@ -1,0 +1,218 @@
+input_data = {
+    'payload__message_ts': '1516651652.000133',
+    'response_url': 'https://hooks.slack.com/actions/T1ALNULAW/303848817847/ZCgjifM1qnhLVN7Ldj96AO8g',
+    'sales rep slack username': 'karl',
+    'sales rep slack id': 'U8A107YV9',
+    'original message': """
+actions: '[{u'style': u'primary', u'name': u'*1*accept*11*', u'text': u'Accept Opportunity', u'value': u'*2*notavailable@notavailable.com*22**3*2817581000001615010*33*', u'type': u'button', u'id': u'1'}, {u'style': u'danger', u'name': u'*1*deny*11*', u'confirm': {u'text': u'If you reject this opportunity, no one else will get it.', u'dismiss_text': u'No', u'ok_text': u'Yes', u'title': u'Are you sure?'}, u'text': u'Reject Opportunity', u'value': u'*2*notavailable@notavailable.com*22**3*2817581000001615010*33*', u'type': u'button', u'id': u'2'}]
+callback_id: new_opp
+color: 3AA3E3
+fallback: Opportunity data failed to load.
+id: 1
+text: Name: Amy Not Available
+Email: <mailto:notavailable@notavailable.com|notavailable@notavailable.com>
+Phone: <tel:(773)988-6578|(773) 988-6578>
+Main Inquiry: <http://estatesales.net|estatesales.net> lead
+Amy
+Scottsdale, AZ 85254
+<tel:(773)988-6578|(773) 988-6578>
+Sale Details:
+Property Type: Apartment or Condo. Property is in a gated community. May contact anytime. Moving sale.
+Reason for Sale:
+Possibly moving Feb 28.
+Size of Sale:
+1000 to 2000 Sq Ft
+Time Frame:
+Within the Next Month
+Types of Items for Sale:
+Furniture, House Decorations. 2 sets of golf clubs (his and hers), kitchen stuff; plates King size bed w/ frame, dresser, lamps,queen size bed w/ frame 46' flat screen, dining set for 4, patio set, couch and a half, chair and a half, entertainment center,
+actions
+name: *1*accept*11*
+type: button
+value: *2*notavailable@notavailable.com*22**3*2817581000001615010*33*
+""",
+    'auth': 'c9cfa32a490752dded5bfcc2e18e2189',
+    'payload__action_ts': '1516651680.322015'
+}
+
+import requests
+import json
+
+def Update_Lead(id, xml_data, auth):
+    url = "https://crm.zoho.com/crm/private/xml/Leads/updateRecords?"
+    params = {
+        "authtoken": auth,
+        "scope": "crmapi",
+        "id": id,
+        "xmlData": xml_data
+    }
+    post = requests.post(url, params=params)
+    return post
+
+def xml_encode(map, module):
+    values = ''
+    for value in map:
+        line = '<FL val="{key}">{entry}</FL>'.format(key = value, entry = map[value])
+        values = values + line +'\n'
+    xml = '''<{module}>
+    <row no="1">
+    {values}
+    </row>
+    </{module}>
+    '''.format(module = module, values = values)
+    return xml
+################# Start Code ###########################
+
+# Extract name and value from input data with transmitted markers
+name = input_data["actions"].partition("*1*")[2].partition("*11*")[0]
+value = input_data["actions"].partition("*2*")[2].partition("*22*")[0]
+id = input_data["actions"].partition("*3*")[2].partition("*33*")[0]
+text = input_data["original message"].partition("Name: ")[1:]
+text = text[0]+text[1]
+time = (float(input_data["payload__action_ts"])-float(input_data["payload__message_ts"]))/60
+print("Name: {}\nValue: {}\nTest: {}\nTime: {}".format(name, value,text,time))
+
+# Message sent when Opportunity is accepted
+accept = {
+    "response_type": "in_channel",
+    "replace_original": True,
+    "attachments": [
+        {
+            "title":"Opportunity Accepted",
+            "fallback":"Opportunity Accepted",
+            "callback_id":"opportunity_accepted_notice",
+            "color":"#19c165",
+            "text":text,
+        },
+        {
+            "callback_id": "new_opp_button",
+            "fallback": "Opportunity Url: {}".format(
+                "https://crm.zoho.com/crm/EntityInfo.do?module=Leads&id={}".format(id)),
+            "actions": [
+                {
+                    "type": "button",
+                    "text": "View Opportunity in Zoho",
+                    "url": "https://crm.zoho.com/crm/EntityInfo.do?module=Leads&id={}".format(id)
+                }
+            ]
+        }
+    ]
+}
+
+# Message sent when Opportunity is rejected
+reject = {
+    "text": "Opportunity Rejected",
+    "response_type": "in_channel",
+    "replace_original": True,
+    "attachments": [
+        {
+            "title":"Opportunity Rejected",
+            "fallback":"Opportunity Rejected",
+            "callback_id":"opportunity_rejected_notice",
+            "color":"#ef0404",
+            "text":text,
+        },
+        {
+            "fallback": "Opportunity Url: {}".format(
+                "https://crm.zoho.com/crm/EntityInfo.do?module=Leads&id={}".format(id)),
+            "actions": [
+                {
+                    "callback_id": "new_opp_button",
+                    "type": "button",
+                    "text": "View Opportunity in Zoho",
+                    "url": "https://crm.zoho.com/crm/EntityInfo.do?module=Leads&id={}".format(id)
+                }
+            ]
+        }
+    ]
+}
+
+# Message sent when Opportunity is accepted in the Sales Channel
+accept_sales ={
+    "response_type": "in_channel",
+    "replace_original": True,
+    "attachments": [
+        {
+            "title":"Opportunity Accepted",
+            "fallback":"Opportunity Accepted",
+            "callback_id":"opportunity_accepted_sales_notice",
+            "color":"#19c165",
+            "text": "{}\n:white_check_mark: <@{}> has Accepted this opportunity.".format(text.partition("Email:")[0],input_data["sales rep slack id"])
+        },
+        {
+            "callback_id": "new_opp_button",
+            "fallback": "Opportunity Url: {}".format(
+                "https://crm.zoho.com/crm/EntityInfo.do?module=Leads&id={}".format(id)),
+            "actions": [
+                {
+                    "type": "button",
+                    "text": "View Opportunity in Zoho",
+                    "url": "https://crm.zoho.com/crm/EntityInfo.do?module=Leads&id={}".format(id)
+                }
+            ]
+        }
+    ]
+}
+
+# Message sent when Opportunity is abandoned in the Sales Channel
+junk ={
+    "response_type": "in_channel",
+    "replace_original": True,
+    "attachments": [
+        {
+            "title":"Opportunity Abandoned",
+            "fallback":"Opportunity Abandoned",
+            "callback_id":"opportunity_abandoned_notice",
+            "color":"#EF0404",
+            "text": "{}\n:no_entry_sign: <@{}> has Abandoned this opportunity.".format(text.partition("Email:")[0],input_data["sales rep slack id"])
+        },
+        {
+            "callback_id": "new_opp_button",
+            "fallback": "Opportunity Url: {}".format(
+                "https://crm.zoho.com/crm/EntityInfo.do?module=Leads&id={}".format(id)),
+            "actions": [
+                {
+                    "type": "button",
+                    "text": "View Opportunity in Zoho",
+                    "url": "https://crm.zoho.com/crm/EntityInfo.do?module=Leads&id={}".format(id)
+                }
+            ]
+        }
+    ]
+}
+
+#Message sent when Opportunity is accepted or rejected after 15 minutes
+expired={
+    "response_type": "in_channel",
+    "replace_original": True,
+    "attachments": [
+        {
+            "title":"Opportunity Expired",
+            "fallback":"Opportunity Expired",
+            "callback_id":"opportunity_expired_notice",
+            "color":"#ef0404",
+            "text":"You have 15 minutes to accept an Opportunity. You took {} minutes. This Opportunity was reassgined.".format(round(time,1))
+        }
+
+    ]
+}
+
+# Send out POST to webhook Zap depending on the response
+if name == "accept": # and time < 15.5:
+    print("Respone Type: Accept")
+    response = requests.post(input_data["response_url"], data=json.dumps(accept))
+    stage = xml_encode({"Stage":"New - Accepted"},"Leads")
+    update = Update_Lead(id,stage,input_data["auth"])
+    print ("Update: {}\n".format(update))
+
+
+elif name == "deny": # and time <15.5:
+    print("Response Type: Reject")
+    response = requests.post(input_data["response_url"], data=json.dumps(reject))
+    stage = xml_encode({"Stage":"Abandoned","Lead Status":"Inactive"},"Leads")
+    update = Update_Lead(id,stage,input_data["auth"])
+    print ("Update: {}\n".format(update))
+
+#elif time >= 15.5:
+    #print("Response Type: Expired")
+    #response = requests.post(input_data["response_url"], data=json.dumps(expired))
