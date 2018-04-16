@@ -31,7 +31,7 @@ def message(name, phone, email, main, id):
 
     attachment.new_field(
         title="Email",
-        value=email,
+        value=email.split("|")[0].split(":")[1],
         short=True
     )
 
