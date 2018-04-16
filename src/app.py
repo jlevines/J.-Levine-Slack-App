@@ -1,5 +1,5 @@
 from decouple import config
-from flask import Flask, redirect, request
+from flask import Flask, redirect, request, jsonify
 import src.models.zoho_crm as Zoho
 from urllib import parse
 from src.logic.New_Opportunity import new_opportunity
@@ -29,7 +29,7 @@ def oauth2callback():
 def slack_hub():
     data = request.form['payload']
     response = hub(data)
-    return response
+    return jsonify(response)
 
 @app.route('/new', methods = ['POST'])
 def new():

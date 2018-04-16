@@ -1,0 +1,42 @@
+{
+  "attachments": [
+    {
+      "actions": [
+        {
+          "name": "new_opp_button", 
+          "text": "View Opportunity in Zoho", 
+          "type": "button", 
+          "url": "https://crm.zoho.com/crm/EntityInfo.do?module=Leads&id=2817581000004477198"
+        }
+      ], 
+      "attachment_type": "default", 
+      "callback_id": "new_opp_attachment", 
+      "color": "#19c165", 
+      "fallback": "Opportunity Url: https://crm.zoho.com/crm/EntityInfo.do?module=Leads&id=2817581000004477198", 
+      "fields": [
+        {
+          "title": "Opportunity Name", 
+          "value": "Test Lead"
+        }, 
+        {
+          "short": true, 
+          "title": "Phone", 
+          "value": "1234567890"
+        }, 
+        {
+          "short": true, 
+          "title": "Email", 
+          "value": "&lt;mailto:Test@test.com|Test@test.com&gt;"
+        }, 
+        {
+          "title": "Main Inquiry", 
+          "value": "This is my inquiry"
+        }
+      ], 
+      "title": "Opportunity Accepted"
+    }
+  ], 
+  "delete_original": false, 
+  "replace_original": true, 
+  "response_type": "in_channel"
+}
