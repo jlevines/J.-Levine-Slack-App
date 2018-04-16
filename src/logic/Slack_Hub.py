@@ -6,7 +6,8 @@ def hub(data):
     from src.models.zoho_crm import Record
     from src.common.util import get_from_fields
 
-    value = json.loads(data['actions'][0]['value'])
+    data=json.loads(data)
+    value = json.loads(data['actions'][0]['value'].replace("'",'"'))
     target = data['user']['id']
     bot_token = config("Slackbot_Token", cast=str)
     name = get_from_fields('Name', data)

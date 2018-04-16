@@ -1,3 +1,67 @@
+POST http://127.0.0.1:5000/hub?payload={"type":"interactive_message","actions":[{"name":"accept_opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}"}],"callback_id":"new_opp_attachment","team":{"id":"T1ALNULAW","domain":"jlacrew"},"channel":{"id":"DA03UHCAW","name":"directmessage"},"user":{"id":"U9ZS13J20","name":"zach"},"action_ts":"1523914071.793469","message_ts":"1523913611.000185","attachment_id":"1","token":"cdGz6r2FNoDMUfWxWChUSspw","is_app_unfurl":false,"original_message":{"text":"","username":"Zoho CRM","bot_id":"B8T9A06BX","attachments":[{"callback_id":"new_opp_attachment","fallback":"Opportunity Url: <https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;id=2817581000004477198>","title":"New Opportunity","id":1,"color":"3de5ff","fields":[{"title":"Opportunity Name","value":"Test Lead","short":false},{"title":"Phone","value":"1234567890","short":true},{"title":"Email","value":"<mailto:Test@test.com|Test@test.com>","short":true},{"title":"Main Inquiry","value":"This is my inquiry","short":false}],"actions":[{"id":"1","name":"accept_opportunity","text":"Accept Opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}","style":"primary"},{"id":"2","name":"reject_opportunity","text":"Reject Opportunity","type":"button","value":"{'status': 'rejected', 'lead_id': '2817581000004477198'}","style":"default"},{"id":"3","name":"junk_opportunity","text":"Trash Opportunity","type":"button","value":"{'status': 'junk', 'lead_id': '2817581000004477198'}","style":"danger","confirm":{"text":"This will remove the Opportunity from Zoho. Only an Admin can get it back.","title":"Are you sure?","ok_text":"Yes, the is junk","dismiss_text":"No, let me select another opti\u2026"}}]}],"type":"message","subtype":"bot_message","ts":"1523913611.000185"},"response_url":"https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp","trigger_id":"347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6"}
+
+<> 2018-04-16T051209.200.html
+
+###
+
+POST http://127.0.0.1:5000/hub?payload={"type":"interactive_message","actions":[{"name":"accept_opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}"}],"callback_id":"new_opp_attachment","team":{"id":"T1ALNULAW","domain":"jlacrew"},"channel":{"id":"DA03UHCAW","name":"directmessage"},"user":{"id":"U9ZS13J20","name":"zach"},"action_ts":"1523914071.793469","message_ts":"1523913611.000185","attachment_id":"1","token":"cdGz6r2FNoDMUfWxWChUSspw","is_app_unfurl":false,"original_message":{"text":"","username":"Zoho CRM","bot_id":"B8T9A06BX","attachments":[{"callback_id":"new_opp_attachment","fallback":"Opportunity Url: <https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;id=2817581000004477198>","title":"New Opportunity","id":1,"color":"3de5ff","fields":[{"title":"Opportunity Name","value":"Test Lead","short":false},{"title":"Phone","value":"1234567890","short":true},{"title":"Email","value":"<mailto:Test@test.com|Test@test.com>","short":true},{"title":"Main Inquiry","value":"This is my inquiry","short":false}],"actions":[{"id":"1","name":"accept_opportunity","text":"Accept Opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}","style":"primary"},{"id":"2","name":"reject_opportunity","text":"Reject Opportunity","type":"button","value":"{'status': 'rejected', 'lead_id': '2817581000004477198'}","style":"default"},{"id":"3","name":"junk_opportunity","text":"Trash Opportunity","type":"button","value":"{'status': 'junk', 'lead_id': '2817581000004477198'}","style":"danger","confirm":{"text":"This will remove the Opportunity from Zoho. Only an Admin can get it back.","title":"Are you sure?","ok_text":"Yes, the is junk","dismiss_text":"No, let me select another opti\u2026"}}]}],"type":"message","subtype":"bot_message","ts":"1523913611.000185"},"response_url":"https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp","trigger_id":"347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6"}
+
+<> 2018-04-16T051111.500.html
+
+###
+
+POST http://127.0.0.1:5000/hub?payload={"type":"interactive_message","actions":[{"name":"accept_opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}"}],"callback_id":"new_opp_attachment","team":{"id":"T1ALNULAW","domain":"jlacrew"},"channel":{"id":"DA03UHCAW","name":"directmessage"},"user":{"id":"U9ZS13J20","name":"zach"},"action_ts":"1523914071.793469","message_ts":"1523913611.000185","attachment_id":"1","token":"cdGz6r2FNoDMUfWxWChUSspw","is_app_unfurl":false,"original_message":{"text":"","username":"Zoho CRM","bot_id":"B8T9A06BX","attachments":[{"callback_id":"new_opp_attachment","fallback":"Opportunity Url: <https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;id=2817581000004477198>","title":"New Opportunity","id":1,"color":"3de5ff","fields":[{"title":"Opportunity Name","value":"Test Lead","short":false},{"title":"Phone","value":"1234567890","short":true},{"title":"Email","value":"<mailto:Test@test.com|Test@test.com>","short":true},{"title":"Main Inquiry","value":"This is my inquiry","short":false}],"actions":[{"id":"1","name":"accept_opportunity","text":"Accept Opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}","style":"primary"},{"id":"2","name":"reject_opportunity","text":"Reject Opportunity","type":"button","value":"{'status': 'rejected', 'lead_id': '2817581000004477198'}","style":"default"},{"id":"3","name":"junk_opportunity","text":"Trash Opportunity","type":"button","value":"{'status': 'junk', 'lead_id': '2817581000004477198'}","style":"danger","confirm":{"text":"This will remove the Opportunity from Zoho. Only an Admin can get it back.","title":"Are you sure?","ok_text":"Yes, the is junk","dismiss_text":"No, let me select another opti\u2026"}}]}],"type":"message","subtype":"bot_message","ts":"1523913611.000185"},"response_url":"https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp","trigger_id":"347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6"}
+
+<> 2018-04-16T051005.500.html
+
+###
+
+POST http://127.0.0.1:5000/hub?payload={"type":"interactive_message","actions":[{"name":"accept_opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}"}],"callback_id":"new_opp_attachment","team":{"id":"T1ALNULAW","domain":"jlacrew"},"channel":{"id":"DA03UHCAW","name":"directmessage"},"user":{"id":"U9ZS13J20","name":"zach"},"action_ts":"1523914071.793469","message_ts":"1523913611.000185","attachment_id":"1","token":"cdGz6r2FNoDMUfWxWChUSspw","is_app_unfurl":false,"original_message":{"text":"","username":"Zoho CRM","bot_id":"B8T9A06BX","attachments":[{"callback_id":"new_opp_attachment","fallback":"Opportunity Url: <https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;id=2817581000004477198>","title":"New Opportunity","id":1,"color":"3de5ff","fields":[{"title":"Opportunity Name","value":"Test Lead","short":false},{"title":"Phone","value":"1234567890","short":true},{"title":"Email","value":"<mailto:Test@test.com|Test@test.com>","short":true},{"title":"Main Inquiry","value":"This is my inquiry","short":false}],"actions":[{"id":"1","name":"accept_opportunity","text":"Accept Opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}","style":"primary"},{"id":"2","name":"reject_opportunity","text":"Reject Opportunity","type":"button","value":"{'status': 'rejected', 'lead_id': '2817581000004477198'}","style":"default"},{"id":"3","name":"junk_opportunity","text":"Trash Opportunity","type":"button","value":"{'status': 'junk', 'lead_id': '2817581000004477198'}","style":"danger","confirm":{"text":"This will remove the Opportunity from Zoho. Only an Admin can get it back.","title":"Are you sure?","ok_text":"Yes, the is junk","dismiss_text":"No, let me select another opti\u2026"}}]}],"type":"message","subtype":"bot_message","ts":"1523913611.000185"},"response_url":"https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp","trigger_id":"347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6"}
+
+###
+
+POST http://127.0.0.1:5000/hub?payload={"type":"interactive_message","actions":[{"name":"accept_opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}"}],"callback_id":"new_opp_attachment","team":{"id":"T1ALNULAW","domain":"jlacrew"},"channel":{"id":"DA03UHCAW","name":"directmessage"},"user":{"id":"U9ZS13J20","name":"zach"},"action_ts":"1523914071.793469","message_ts":"1523913611.000185","attachment_id":"1","token":"cdGz6r2FNoDMUfWxWChUSspw","is_app_unfurl":false,"original_message":{"text":"","username":"Zoho CRM","bot_id":"B8T9A06BX","attachments":[{"callback_id":"new_opp_attachment","fallback":"Opportunity Url: <https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;id=2817581000004477198>","title":"New Opportunity","id":1,"color":"3de5ff","fields":[{"title":"Opportunity Name","value":"Test Lead","short":false},{"title":"Phone","value":"1234567890","short":true},{"title":"Email","value":"<mailto:Test@test.com|Test@test.com>","short":true},{"title":"Main Inquiry","value":"This is my inquiry","short":false}],"actions":[{"id":"1","name":"accept_opportunity","text":"Accept Opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}","style":"primary"},{"id":"2","name":"reject_opportunity","text":"Reject Opportunity","type":"button","value":"{'status': 'rejected', 'lead_id': '2817581000004477198'}","style":"default"},{"id":"3","name":"junk_opportunity","text":"Trash Opportunity","type":"button","value":"{'status': 'junk', 'lead_id': '2817581000004477198'}","style":"danger","confirm":{"text":"This will remove the Opportunity from Zoho. Only an Admin can get it back.","title":"Are you sure?","ok_text":"Yes, the is junk","dismiss_text":"No, let me select another opti\u2026"}}]}],"type":"message","subtype":"bot_message","ts":"1523913611.000185"},"response_url":"https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp","trigger_id":"347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6"}
+
+###
+
+POST http://127.0.0.1:5000/hub?payload={"type":"interactive_message","actions":[{"name":"accept_opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}"}],"callback_id":"new_opp_attachment","team":{"id":"T1ALNULAW","domain":"jlacrew"},"channel":{"id":"DA03UHCAW","name":"directmessage"},"user":{"id":"U9ZS13J20","name":"zach"},"action_ts":"1523914071.793469","message_ts":"1523913611.000185","attachment_id":"1","token":"cdGz6r2FNoDMUfWxWChUSspw","is_app_unfurl":false,"original_message":{"text":"","username":"Zoho CRM","bot_id":"B8T9A06BX","attachments":[{"callback_id":"new_opp_attachment","fallback":"Opportunity Url: <https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;id=2817581000004477198>","title":"New Opportunity","id":1,"color":"3de5ff","fields":[{"title":"Opportunity Name","value":"Test Lead","short":false},{"title":"Phone","value":"1234567890","short":true},{"title":"Email","value":"<mailto:Test@test.com|Test@test.com>","short":true},{"title":"Main Inquiry","value":"This is my inquiry","short":false}],"actions":[{"id":"1","name":"accept_opportunity","text":"Accept Opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}","style":"primary"},{"id":"2","name":"reject_opportunity","text":"Reject Opportunity","type":"button","value":"{'status': 'rejected', 'lead_id': '2817581000004477198'}","style":"default"},{"id":"3","name":"junk_opportunity","text":"Trash Opportunity","type":"button","value":"{'status': 'junk', 'lead_id': '2817581000004477198'}","style":"danger","confirm":{"text":"This will remove the Opportunity from Zoho. Only an Admin can get it back.","title":"Are you sure?","ok_text":"Yes, the is junk","dismiss_text":"No, let me select another opti\u2026"}}]}],"type":"message","subtype":"bot_message","ts":"1523913611.000185"},"response_url":"https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp","trigger_id":"347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6"}
+
+<> 2018-04-16T050701.500.html
+
+###
+
+POST http://127.0.0.1:5000/hub?payload={"type":"interactive_message","actions":[{"name":"accept_opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}"}],"callback_id":"new_opp_attachment","team":{"id":"T1ALNULAW","domain":"jlacrew"},"channel":{"id":"DA03UHCAW","name":"directmessage"},"user":{"id":"U9ZS13J20","name":"zach"},"action_ts":"1523914071.793469","message_ts":"1523913611.000185","attachment_id":"1","token":"cdGz6r2FNoDMUfWxWChUSspw","is_app_unfurl":false,"original_message":{"text":"","username":"Zoho CRM","bot_id":"B8T9A06BX","attachments":[{"callback_id":"new_opp_attachment","fallback":"Opportunity Url: <https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;id=2817581000004477198>","title":"New Opportunity","id":1,"color":"3de5ff","fields":[{"title":"Opportunity Name","value":"Test Lead","short":false},{"title":"Phone","value":"1234567890","short":true},{"title":"Email","value":"<mailto:Test@test.com|Test@test.com>","short":true},{"title":"Main Inquiry","value":"This is my inquiry","short":false}],"actions":[{"id":"1","name":"accept_opportunity","text":"Accept Opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}","style":"primary"},{"id":"2","name":"reject_opportunity","text":"Reject Opportunity","type":"button","value":"{'status': 'rejected', 'lead_id': '2817581000004477198'}","style":"default"},{"id":"3","name":"junk_opportunity","text":"Trash Opportunity","type":"button","value":"{'status': 'junk', 'lead_id': '2817581000004477198'}","style":"danger","confirm":{"text":"This will remove the Opportunity from Zoho. Only an Admin can get it back.","title":"Are you sure?","ok_text":"Yes, the is junk","dismiss_text":"No, let me select another opti\u2026"}}]}],"type":"message","subtype":"bot_message","ts":"1523913611.000185"},"response_url":"https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp","trigger_id":"347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6"}
+
+###
+
+POST http://127.0.0.1:5000/hub?payload={"type":"interactive_message","actions":[{"name":"accept_opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}"}],"callback_id":"new_opp_attachment","team":{"id":"T1ALNULAW","domain":"jlacrew"},"channel":{"id":"DA03UHCAW","name":"directmessage"},"user":{"id":"U9ZS13J20","name":"zach"},"action_ts":"1523914071.793469","message_ts":"1523913611.000185","attachment_id":"1","token":"cdGz6r2FNoDMUfWxWChUSspw","is_app_unfurl":false,"original_message":{"text":"","username":"Zoho CRM","bot_id":"B8T9A06BX","attachments":[{"callback_id":"new_opp_attachment","fallback":"Opportunity Url: <https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;id=2817581000004477198>","title":"New Opportunity","id":1,"color":"3de5ff","fields":[{"title":"Opportunity Name","value":"Test Lead","short":false},{"title":"Phone","value":"1234567890","short":true},{"title":"Email","value":"<mailto:Test@test.com|Test@test.com>","short":true},{"title":"Main Inquiry","value":"This is my inquiry","short":false}],"actions":[{"id":"1","name":"accept_opportunity","text":"Accept Opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}","style":"primary"},{"id":"2","name":"reject_opportunity","text":"Reject Opportunity","type":"button","value":"{'status': 'rejected', 'lead_id': '2817581000004477198'}","style":"default"},{"id":"3","name":"junk_opportunity","text":"Trash Opportunity","type":"button","value":"{'status': 'junk', 'lead_id': '2817581000004477198'}","style":"danger","confirm":{"text":"This will remove the Opportunity from Zoho. Only an Admin can get it back.","title":"Are you sure?","ok_text":"Yes, the is junk","dismiss_text":"No, let me select another opti\u2026"}}]}],"type":"message","subtype":"bot_message","ts":"1523913611.000185"},"response_url":"https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp","trigger_id":"347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6"}
+
+<> 2018-04-16T045014.500.html
+
+###
+
+POST http://127.0.0.1:5000/hub?payload={"type":"interactive_message","actions":[{"name":"accept_opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}"}],"callback_id":"new_opp_attachment","team":{"id":"T1ALNULAW","domain":"jlacrew"},"channel":{"id":"DA03UHCAW","name":"directmessage"},"user":{"id":"U9ZS13J20","name":"zach"},"action_ts":"1523914071.793469","message_ts":"1523913611.000185","attachment_id":"1","token":"cdGz6r2FNoDMUfWxWChUSspw","is_app_unfurl":false,"original_message":{"text":"","username":"Zoho CRM","bot_id":"B8T9A06BX","attachments":[{"callback_id":"new_opp_attachment","fallback":"Opportunity Url: <https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;id=2817581000004477198>","title":"New Opportunity","id":1,"color":"3de5ff","fields":[{"title":"Opportunity Name","value":"Test Lead","short":false},{"title":"Phone","value":"1234567890","short":true},{"title":"Email","value":"<mailto:Test@test.com|Test@test.com>","short":true},{"title":"Main Inquiry","value":"This is my inquiry","short":false}],"actions":[{"id":"1","name":"accept_opportunity","text":"Accept Opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}","style":"primary"},{"id":"2","name":"reject_opportunity","text":"Reject Opportunity","type":"button","value":"{'status': 'rejected', 'lead_id': '2817581000004477198'}","style":"default"},{"id":"3","name":"junk_opportunity","text":"Trash Opportunity","type":"button","value":"{'status': 'junk', 'lead_id': '2817581000004477198'}","style":"danger","confirm":{"text":"This will remove the Opportunity from Zoho. Only an Admin can get it back.","title":"Are you sure?","ok_text":"Yes, the is junk","dismiss_text":"No, let me select another opti\u2026"}}]}],"type":"message","subtype":"bot_message","ts":"1523913611.000185"},"response_url":"https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp","trigger_id":"347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6"}
+
+###
+
+POST http://127.0.0.1:5000/hub?payload={"type":"interactive_message","actions":[{"name":"accept_opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}"}],"callback_id":"new_opp_attachment","team":{"id":"T1ALNULAW","domain":"jlacrew"},"channel":{"id":"DA03UHCAW","name":"directmessage"},"user":{"id":"U9ZS13J20","name":"zach"},"action_ts":"1523914071.793469","message_ts":"1523913611.000185","attachment_id":"1","token":"cdGz6r2FNoDMUfWxWChUSspw","is_app_unfurl":false,"original_message":{"text":"","username":"Zoho CRM","bot_id":"B8T9A06BX","attachments":[{"callback_id":"new_opp_attachment","fallback":"Opportunity Url: <https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;id=2817581000004477198>","title":"New Opportunity","id":1,"color":"3de5ff","fields":[{"title":"Opportunity Name","value":"Test Lead","short":false},{"title":"Phone","value":"1234567890","short":true},{"title":"Email","value":"<mailto:Test@test.com|Test@test.com>","short":true},{"title":"Main Inquiry","value":"This is my inquiry","short":false}],"actions":[{"id":"1","name":"accept_opportunity","text":"Accept Opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}","style":"primary"},{"id":"2","name":"reject_opportunity","text":"Reject Opportunity","type":"button","value":"{'status': 'rejected', 'lead_id': '2817581000004477198'}","style":"default"},{"id":"3","name":"junk_opportunity","text":"Trash Opportunity","type":"button","value":"{'status': 'junk', 'lead_id': '2817581000004477198'}","style":"danger","confirm":{"text":"This will remove the Opportunity from Zoho. Only an Admin can get it back.","title":"Are you sure?","ok_text":"Yes, the is junk","dismiss_text":"No, let me select another opti\u2026"}}]}],"type":"message","subtype":"bot_message","ts":"1523913611.000185"},"response_url":"https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp","trigger_id":"347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6"}
+
+###
+
+POST http://127.0.0.1:5000/hub?payload={"type":"interactive_message","actions":[{"name":"accept_opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}"}],"callback_id":"new_opp_attachment","team":{"id":"T1ALNULAW","domain":"jlacrew"},"channel":{"id":"DA03UHCAW","name":"directmessage"},"user":{"id":"U9ZS13J20","name":"zach"},"action_ts":"1523914071.793469","message_ts":"1523913611.000185","attachment_id":"1","token":"cdGz6r2FNoDMUfWxWChUSspw","is_app_unfurl":false,"original_message":{"text":"","username":"Zoho CRM","bot_id":"B8T9A06BX","attachments":[{"callback_id":"new_opp_attachment","fallback":"Opportunity Url: <https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;id=2817581000004477198>","title":"New Opportunity","id":1,"color":"3de5ff","fields":[{"title":"Opportunity Name","value":"Test Lead","short":false},{"title":"Phone","value":"1234567890","short":true},{"title":"Email","value":"<mailto:Test@test.com|Test@test.com>","short":true},{"title":"Main Inquiry","value":"This is my inquiry","short":false}],"actions":[{"id":"1","name":"accept_opportunity","text":"Accept Opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}","style":"primary"},{"id":"2","name":"reject_opportunity","text":"Reject Opportunity","type":"button","value":"{'status': 'rejected', 'lead_id': '2817581000004477198'}","style":"default"},{"id":"3","name":"junk_opportunity","text":"Trash Opportunity","type":"button","value":"{'status': 'junk', 'lead_id': '2817581000004477198'}","style":"danger","confirm":{"text":"This will remove the Opportunity from Zoho. Only an Admin can get it back.","title":"Are you sure?","ok_text":"Yes, the is junk","dismiss_text":"No, let me select another opti\u2026"}}]}],"type":"message","subtype":"bot_message","ts":"1523913611.000185"},"response_url":"https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp","trigger_id":"347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6"}
+
+<> 2018-04-16T044712.500.html
+
+###
+
+POST http://127.0.0.1:5000/hub?payload={"type":"interactive_message","actions":[{"name":"accept_opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}"}],"callback_id":"new_opp_attachment","team":{"id":"T1ALNULAW","domain":"jlacrew"},"channel":{"id":"DA03UHCAW","name":"directmessage"},"user":{"id":"U9ZS13J20","name":"zach"},"action_ts":"1523914071.793469","message_ts":"1523913611.000185","attachment_id":"1","token":"cdGz6r2FNoDMUfWxWChUSspw","is_app_unfurl":false,"original_message":{"text":"","username":"Zoho CRM","bot_id":"B8T9A06BX","attachments":[{"callback_id":"new_opp_attachment","fallback":"Opportunity Url: <https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;id=2817581000004477198>","title":"New Opportunity","id":1,"color":"3de5ff","fields":[{"title":"Opportunity Name","value":"Test Lead","short":false},{"title":"Phone","value":"1234567890","short":true},{"title":"Email","value":"<mailto:Test@test.com|Test@test.com>","short":true},{"title":"Main Inquiry","value":"This is my inquiry","short":false}],"actions":[{"id":"1","name":"accept_opportunity","text":"Accept Opportunity","type":"button","value":"{'status': 'accepted', 'lead_id': '2817581000004477198'}","style":"primary"},{"id":"2","name":"reject_opportunity","text":"Reject Opportunity","type":"button","value":"{'status': 'rejected', 'lead_id': '2817581000004477198'}","style":"default"},{"id":"3","name":"junk_opportunity","text":"Trash Opportunity","type":"button","value":"{'status': 'junk', 'lead_id': '2817581000004477198'}","style":"danger","confirm":{"text":"This will remove the Opportunity from Zoho. Only an Admin can get it back.","title":"Are you sure?","ok_text":"Yes, the is junk","dismiss_text":"No, let me select another opti\u2026"}}]}],"type":"message","subtype":"bot_message","ts":"1523913611.000185"},"response_url":"https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp","trigger_id":"347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6"}
+
+###
+
+POST http://127.0.0.1:5000/new?lead_id=2817581000004477198
+
+###
+
 POST http://127.0.0.1:5000/new?lead_id=2817581000004477198
 Accept: */*
 Cache-Control: no-cache
@@ -273,94 +337,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2018-04-02T101623.500.html
-
-###
-
-POST http://127.0.0.1:5000/new?lead_id=2817581000004063056
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://127.0.0.1:5000/new?lead_id=2817581000004063056
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://127.0.0.1:5000/new?lead_id=2817581000004063056
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://127.0.0.1:5000/new?lead_id=2817581000004063056
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-04-02T070316.500.html
-
-###
-
-POST http://127.0.0.1:5000/new?lead_id=2817581000004063056
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://127.0.0.1:5000/new?lead_id=2817581000004063056
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-04-02T065704.500.html
-
-###
-
-POST http://127.0.0.1:5000/new?lead_id=2817581000004063056
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-04-02T065533.500.html
-
-###
-
-POST http://127.0.0.1:5000/new?lead_id=2817581000004063056
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://127.0.0.1:5000/oauth2callback?code=1000.bd4ac25b105336200d20a33b06f02443.fffc47aaa5c1bea413c91fceaa57dca0
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-04-02T065215.200.html
-
-###
-
-POST http://127.0.0.1:5000/oauth2callback?code=1000.bd4ac25b105336200d20a33b06f02443.fffc47aaa5c1bea413c91fceaa57dca0
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-04-02T064907.500.html
-
-###
-
-POST http://127.0.0.1:5000/oauth2callback?code=1000.bd4ac25b105336200d20a33b06f02443.fffc47aaa5c1bea413c91fceaa57dca0
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://127.0.0.1:5000/oauth2callback?code=1000.faff43b2beb1d07cb266719bd5180aae.8e4bbf882376c40c09a40cf02d0ad932
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://127.0.0.1:5000/new?lead_id=2817581000004063056
-Accept: */*
-Cache-Control: no-cache
 
 ###
 

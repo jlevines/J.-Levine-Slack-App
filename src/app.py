@@ -28,7 +28,7 @@ def oauth2callback():
 @app.route('/hub', methods = ['POST'])
 def slack_hub():
     data = request.form['payload']
-    response = hub(data)
+    response = str(hub(data))
     return response
 
 @app.route('/new', methods = ['POST'])
