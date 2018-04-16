@@ -9,7 +9,7 @@ from src.common.util import assign_opportunity
 from src.models.slack import Conversation
 
 
-def opp_followup(ts:str, id:str, delay_min:int=15):
+def opp_followup(ts:str, id:str, channel:str, delay_min:int=15):
     if logging: print("opp_followup started")
 
     minutes_to_sleep = 2 if testing else delay_min
@@ -20,7 +20,8 @@ def opp_followup(ts:str, id:str, delay_min:int=15):
         assign_response = assign_opportunity(id, followup=True, followup_ts=ts)
         opp_followup(
             ts=assign_response.json()['ts'],
-            id=id
+            id=id,
+            channel=channel
         )
         return "reassigned successfully"
     return "followup complete"

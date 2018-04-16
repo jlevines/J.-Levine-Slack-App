@@ -60,7 +60,7 @@ def get_user_by_role(role: str, type: str = "ActiveUsers") -> list:
     return role_users
 
 
-def assign_opportunity(lead_id: str, followup: bool = False, followup_ts: str = None):
+def assign_opportunity(lead_id: str, followup: bool = False, followup_ts: str = None, followup_channel: str = None):
     sales_reps = get_user_by_role("Sales Rep")
     last_owner = config("Last_Owner", cast=str)
     new_owner = round_robin(sales_reps, last_owner) if not testing else test_user
@@ -91,7 +91,7 @@ def assign_opportunity(lead_id: str, followup: bool = False, followup_ts: str = 
         last_owner_data = Zoho.Users(id=last_owner).get_user()
         last_owner_name = "{} {}".format(last_owner_data["first_name"], last_owner_data["last_name"])
         timeout_convo = Conversation(last_owner_name, target_type="user", token=bot_token)
-        timeout_convo.post_message(expired_message(lead_name, followup_ts))
+        timeout_convo.update_message(channel=followup_channel,ts=followup_ts,attachments=expired_message(lead_name))
 
     return response
 

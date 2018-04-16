@@ -106,6 +106,33 @@ class Conversation:
 
         return response
 
+    def update_message(self, channel:str,
+                       ts:str,
+                       text: str=None,
+                       as_user:bool=None,
+                       attachments:list=None,
+                       link_names=None,
+                       parse=None):
+
+        params = {"channel":channel, "ts":ts}
+        if not text and not attachments:
+            return "Update Message requires Text or Attachments"
+        if text: params.update({"text":text})
+        if attachments: params.update({"attachments":attachments})
+        if as_user: params.update({"as_user":as_user})
+        if link_names: params.update({"link_names":link_names})
+        if parse: params.update({"parse":parse})
+
+        response = requests.post("https://slack.com/api/chat.update", data=json.dumps(params),
+                                 headers={"Content-Type": "application/json",
+                                          "Authorization": "Bearer {}".format(self.token)})
+        # noinspection PySimplifyBooleanCheck
+        if json.loads(response.text)["ok"] == False:
+            error = json.loads(response.text)["error"]
+            raise PostMessageError("Slack Error: {}".format(error))
+
+        return response
+
 
 # noinspection PyAttributeOutsideInit
 class Message:

@@ -1,7 +1,7 @@
 from src.models.slack import Attachment, Message
 
 
-def message(name, ts):
+def message(name):
 
     attachment = Attachment(
         title="Opportunity Expired",
@@ -13,7 +13,4 @@ def message(name, ts):
 
     attachment.new_field(title="Opportunity Name", value=name)
 
-    return Message(
-        attachments=[attachment.built_message],
-        thread_ts=ts
-    )
+    return attachment.built_message

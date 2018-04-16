@@ -24,7 +24,8 @@ def new_opportunity(data):
     response = assign_opportunity(lead_id=lead_id)
     followup = opp_followup(
         ts=response.json()['ts'],
-        id=lead_id
+        id=lead_id,
+        channel=response.json()['channel']
     )
     if logging: print("Followup: {}".format(followup))
 
