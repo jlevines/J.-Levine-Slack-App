@@ -48,7 +48,7 @@ class Conversation:
 
         for im in im_list:
             if user in im['user']:
-                return im
+                return im['id']
 
         create_im = requests.post(
             url="https://slack.com/api/im.open",
