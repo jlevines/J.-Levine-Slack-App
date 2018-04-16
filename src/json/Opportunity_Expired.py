@@ -16,4 +16,4 @@ def message(name, ts):
     return Message(
         attachments=[attachment.built_message],
         thread_ts=ts
-    ).built_message
+    )

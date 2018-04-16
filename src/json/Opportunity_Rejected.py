@@ -5,6 +5,7 @@ def message(name):
 
     attachment = Attachment(
         title="Opportunity Rejected",
+        text="You have passed on this opportunity",
         callback_id="rej_opp_attachment",
         fallback="Opportunity Rejected",
         color="#ffcc00"

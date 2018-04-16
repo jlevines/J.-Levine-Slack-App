@@ -5,6 +5,7 @@ def message(name):
 
     attachment = Attachment(
         title="Opportunity Trashed",
+        text="You have sent the opportunity to the trash.",
         callback_id="junk_opp_attachment",
         fallback="Opportunity Trashed",
         color="#ef0404"

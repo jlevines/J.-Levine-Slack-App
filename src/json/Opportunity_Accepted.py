@@ -12,6 +12,7 @@ def message(name, phone, email, main, id):
 
     attachment = Attachment(
         title="Opportunity Accepted",
+        text="You have accepted the following opportunity",
         callback_id="new_opp_attachment",
         fallback="Opportunity Url: {}".format("https://crm.zoho.com/crm/EntityInfo.do?module=Leads&id={}".format(id)),
         color="#19c165",
