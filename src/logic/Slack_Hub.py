@@ -42,7 +42,7 @@ def hub(data):
             update = Record('Leads').update(id=value['lead_id'],
                                    data=[{
                                        'Stage': 'Abandoned',
-                                       'Lead Status': 'Inactive'
+                                       'Opportunity Status': 'Inactive'
                                    }]
                                    )
             response = Opportunity_Junked.message(
