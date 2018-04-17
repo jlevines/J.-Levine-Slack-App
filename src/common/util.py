@@ -91,7 +91,9 @@ def assign_opportunity(lead_id: str, followup: bool = False, followup_ts: str = 
         last_owner_data = Zoho.Users(id=last_owner).get_user()
         last_owner_name = "{} {}".format(last_owner_data["first_name"], last_owner_data["last_name"])
         timeout_convo = Conversation(last_owner_name, target_type="user", token=bot_token)
-        timeout_convo.update_message(channel=followup_channel,ts=followup_ts,attachments=expired_message(lead_name))
+        update = timeout_convo.update_message(channel=followup_channel,ts=followup_ts,attachments=[expired_message(lead_name)]).json()
+        new_ts=response.json()['ts']
+        return new_ts
 
     return response
 

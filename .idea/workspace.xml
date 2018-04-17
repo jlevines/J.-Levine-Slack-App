@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43c8b9b9-dded-4c82-a48b-58049ed39785" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-04-02T102618.500.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-04-02T103240.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-04-02T103309.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-04-02T103352.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-04-02T104028.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-04-02T104211.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-04-02T104411.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-04-02T104757.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-04-02T104844.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-04-02T105553.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-04-02T105645.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-04-02T110229.500.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/common/util.py" afterPath="$PROJECT_DIR$/src/common/util.py" />
-      <change beforePath="$PROJECT_DIR$/src/json/Opportunity_Expired.py" afterPath="$PROJECT_DIR$/src/json/Opportunity_Expired.py" />
-      <change beforePath="$PROJECT_DIR$/src/logic/New_Opportunity.py" afterPath="$PROJECT_DIR$/src/logic/New_Opportunity.py" />
+      <change beforePath="$PROJECT_DIR$/src/json/New_Opportuntiy_Message.py" afterPath="$PROJECT_DIR$/src/json/New_Opportuntiy_Message.py" />
       <change beforePath="$PROJECT_DIR$/src/logic/Opportunity_Followup.py" afterPath="$PROJECT_DIR$/src/logic/Opportunity_Followup.py" />
-      <change beforePath="$PROJECT_DIR$/src/models/slack.py" afterPath="$PROJECT_DIR$/src/models/slack.py" />
+      <change beforePath="$PROJECT_DIR$/src/logic/Slack_Hub.py" afterPath="$PROJECT_DIR$/src/logic/Slack_Hub.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,25 +31,25 @@
     <SUITE FILE_PATH="coverage/J__Levine_Slack_App$Flask__src_app_py_.coverage" NAME="Flask (src/app.py) Coverage Results" MODIFIED="1523419180816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/J__Levine_Slack_App$slack.coverage" NAME="slack Coverage Results" MODIFIED="1522730553856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
     <SUITE FILE_PATH="coverage/J__Levine_Slack_App$play.coverage" NAME="play Coverage Results" MODIFIED="1522730428403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Zaps" />
-    <SUITE FILE_PATH="coverage/J__Levine_Slack_App$app.coverage" NAME="app Coverage Results" MODIFIED="1523921239403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/J__Levine_Slack_App$app.coverage" NAME="app Coverage Results" MODIFIED="1523930559635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="uwsgi.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uwsgi.ini">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="442">
+              <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Slack_Hub.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Slack_Hub.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/logic/Slack_Hub.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="816">
+              <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -50,38 +58,18 @@
       <file leaf-file-name="Opportunity_Followup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/logic/Opportunity_Followup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Opportunity_Accepted.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/json/Opportunity_Accepted.py">
+      <file leaf-file-name="New_Opportuntiy_Message.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/json/New_Opportuntiy_Message.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Opportunity_Expired.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/json/Opportunity_Expired.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Opportunity_Rejected.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/json/Opportunity_Rejected.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+            <state relative-caret-position="230">
+              <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -100,8 +88,8 @@
       <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="99" column="8" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+            <state relative-caret-position="485">
+              <caret line="95" column="21" lean-forward="true" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -112,21 +100,41 @@
       <file leaf-file-name="New_Opportunity.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/logic/New_Opportunity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="298">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slack.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scratch_1.json" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slack.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/slack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state relative-caret-position="-476">
+              <caret line="80" column="39" lean-forward="true" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zoho_crm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/zoho_crm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1324">
+              <caret line="150" column="46" lean-forward="true" selection-start-line="150" selection-start-column="46" selection-end-line="150" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,7 +161,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response15.txt" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response41.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -176,13 +184,11 @@
         <option value="$PROJECT_DIR$/src/models/zoho_crm.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" />
         <option value="$PROJECT_DIR$/Zaps/play.py" />
-        <option value="$PROJECT_DIR$/src/json/New_Opportuntiy_Message.py" />
         <option value="$PROJECT_DIR$/Tests/accepted_opp.json" />
         <option value="$PROJECT_DIR$/Tests/test_utils.py" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
-        <option value="$PROJECT_DIR$/src/logic/Slack_Hub.py" />
         <option value="$PROJECT_DIR$/src/app.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" />
         <option value="$PROJECT_DIR$/uwsgi.ini" />
@@ -191,9 +197,12 @@
         <option value="$PROJECT_DIR$/src/json/Opportunity_Accepted.py" />
         <option value="$PROJECT_DIR$/src/models/slack.py" />
         <option value="$PROJECT_DIR$/src/json/Opportunity_Expired.py" />
-        <option value="$PROJECT_DIR$/src/common/util.py" />
-        <option value="$PROJECT_DIR$/src/logic/Opportunity_Followup.py" />
         <option value="$PROJECT_DIR$/src/logic/New_Opportunity.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.json" />
+        <option value="$PROJECT_DIR$/src/logic/Opportunity_Followup.py" />
+        <option value="$PROJECT_DIR$/src/common/util.py" />
+        <option value="$PROJECT_DIR$/src/json/New_Opportuntiy_Message.py" />
+        <option value="$PROJECT_DIR$/src/logic/Slack_Hub.py" />
       </list>
     </option>
   </component>
@@ -206,7 +215,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="4" />
     <option name="width" value="1936" />
@@ -274,7 +283,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="HTTP Request&#10;JSON" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JSON&#10;HTTP Request" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -292,22 +301,6 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://127.0.0.1:5000/hub" />
-          <option name="urlPath" value="" />
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="payload" />
-                <option name="value" value="{&quot;type&quot;:&quot;interactive_message&quot;,&quot;actions&quot;:[{&quot;name&quot;:&quot;accept_opportunity&quot;,&quot;type&quot;:&quot;button&quot;,&quot;value&quot;:&quot;{'status': 'accepted', 'lead_id': '2817581000004477198'}&quot;}],&quot;callback_id&quot;:&quot;new_opp_attachment&quot;,&quot;team&quot;:{&quot;id&quot;:&quot;T1ALNULAW&quot;,&quot;domain&quot;:&quot;jlacrew&quot;},&quot;channel&quot;:{&quot;id&quot;:&quot;DA03UHCAW&quot;,&quot;name&quot;:&quot;directmessage&quot;},&quot;user&quot;:{&quot;id&quot;:&quot;U9ZS13J20&quot;,&quot;name&quot;:&quot;zach&quot;},&quot;action_ts&quot;:&quot;1523914071.793469&quot;,&quot;message_ts&quot;:&quot;1523913611.000185&quot;,&quot;attachment_id&quot;:&quot;1&quot;,&quot;token&quot;:&quot;cdGz6r2FNoDMUfWxWChUSspw&quot;,&quot;is_app_unfurl&quot;:false,&quot;original_message&quot;:{&quot;text&quot;:&quot;&quot;,&quot;username&quot;:&quot;Zoho CRM&quot;,&quot;bot_id&quot;:&quot;B8T9A06BX&quot;,&quot;attachments&quot;:[{&quot;callback_id&quot;:&quot;new_opp_attachment&quot;,&quot;fallback&quot;:&quot;Opportunity Url: &lt;https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;amp;id=2817581000004477198&gt;&quot;,&quot;title&quot;:&quot;New Opportunity&quot;,&quot;id&quot;:1,&quot;color&quot;:&quot;3de5ff&quot;,&quot;fields&quot;:[{&quot;title&quot;:&quot;Opportunity Name&quot;,&quot;value&quot;:&quot;Test Lead&quot;,&quot;short&quot;:false},{&quot;title&quot;:&quot;Phone&quot;,&quot;value&quot;:&quot;1234567890&quot;,&quot;short&quot;:true},{&quot;title&quot;:&quot;Email&quot;,&quot;value&quot;:&quot;&lt;mailto:Test@test.com|Test@test.com&gt;&quot;,&quot;short&quot;:true},{&quot;title&quot;:&quot;Main Inquiry&quot;,&quot;value&quot;:&quot;This is my inquiry&quot;,&quot;short&quot;:false}],&quot;actions&quot;:[{&quot;id&quot;:&quot;1&quot;,&quot;name&quot;:&quot;accept_opportunity&quot;,&quot;text&quot;:&quot;Accept Opportunity&quot;,&quot;type&quot;:&quot;button&quot;,&quot;value&quot;:&quot;{'status': 'accepted', 'lead_id': '2817581000004477198'}&quot;,&quot;style&quot;:&quot;primary&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;name&quot;:&quot;reject_opportunity&quot;,&quot;text&quot;:&quot;Reject Opportunity&quot;,&quot;type&quot;:&quot;button&quot;,&quot;value&quot;:&quot;{'status': 'rejected', 'lead_id': '2817581000004477198'}&quot;,&quot;style&quot;:&quot;default&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;name&quot;:&quot;junk_opportunity&quot;,&quot;text&quot;:&quot;Trash Opportunity&quot;,&quot;type&quot;:&quot;button&quot;,&quot;value&quot;:&quot;{'status': 'junk', 'lead_id': '2817581000004477198'}&quot;,&quot;style&quot;:&quot;danger&quot;,&quot;confirm&quot;:{&quot;text&quot;:&quot;This will remove the Opportunity from Zoho. Only an Admin can get it back.&quot;,&quot;title&quot;:&quot;Are you sure?&quot;,&quot;ok_text&quot;:&quot;Yes, the is junk&quot;,&quot;dismiss_text&quot;:&quot;No, let me select another opti\u2026&quot;}}]}],&quot;type&quot;:&quot;message&quot;,&quot;subtype&quot;:&quot;bot_message&quot;,&quot;ts&quot;:&quot;1523913611.000185&quot;},&quot;response_url&quot;:&quot;https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp&quot;,&quot;trigger_id&quot;:&quot;347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6&quot;}" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://127.0.0.1:5000" />
@@ -329,6 +322,22 @@
               <KeyValuePair>
                 <option name="key" value="lead_id" />
                 <option name="value" value="2817581000004477198" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:5000/hub" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="payload" />
+                <option name="value" value="{&quot;type&quot;:&quot;interactive_message&quot;,&quot;actions&quot;:[{&quot;name&quot;:&quot;accept_opportunity&quot;,&quot;type&quot;:&quot;button&quot;,&quot;value&quot;:&quot;{'status': 'accepted', 'lead_id': '2817581000004477198'}&quot;}],&quot;callback_id&quot;:&quot;new_opp_attachment&quot;,&quot;team&quot;:{&quot;id&quot;:&quot;T1ALNULAW&quot;,&quot;domain&quot;:&quot;jlacrew&quot;},&quot;channel&quot;:{&quot;id&quot;:&quot;DA03UHCAW&quot;,&quot;name&quot;:&quot;directmessage&quot;},&quot;user&quot;:{&quot;id&quot;:&quot;U9ZS13J20&quot;,&quot;name&quot;:&quot;zach&quot;},&quot;action_ts&quot;:&quot;1523914071.793469&quot;,&quot;message_ts&quot;:&quot;1523913611.000185&quot;,&quot;attachment_id&quot;:&quot;1&quot;,&quot;token&quot;:&quot;cdGz6r2FNoDMUfWxWChUSspw&quot;,&quot;is_app_unfurl&quot;:false,&quot;original_message&quot;:{&quot;text&quot;:&quot;&quot;,&quot;username&quot;:&quot;Zoho CRM&quot;,&quot;bot_id&quot;:&quot;B8T9A06BX&quot;,&quot;attachments&quot;:[{&quot;callback_id&quot;:&quot;new_opp_attachment&quot;,&quot;fallback&quot;:&quot;Opportunity Url: &lt;https:\/\/crm.zoho.com\/crm\/EntityInfo.do?module=Leads&amp;amp;id=2817581000004477198&gt;&quot;,&quot;title&quot;:&quot;New Opportunity&quot;,&quot;id&quot;:1,&quot;color&quot;:&quot;3de5ff&quot;,&quot;fields&quot;:[{&quot;title&quot;:&quot;Opportunity Name&quot;,&quot;value&quot;:&quot;Test Lead&quot;,&quot;short&quot;:false},{&quot;title&quot;:&quot;Phone&quot;,&quot;value&quot;:&quot;1234567890&quot;,&quot;short&quot;:true},{&quot;title&quot;:&quot;Email&quot;,&quot;value&quot;:&quot;&lt;mailto:Test@test.com|Test@test.com&gt;&quot;,&quot;short&quot;:true},{&quot;title&quot;:&quot;Main Inquiry&quot;,&quot;value&quot;:&quot;This is my inquiry&quot;,&quot;short&quot;:false}],&quot;actions&quot;:[{&quot;id&quot;:&quot;1&quot;,&quot;name&quot;:&quot;accept_opportunity&quot;,&quot;text&quot;:&quot;Accept Opportunity&quot;,&quot;type&quot;:&quot;button&quot;,&quot;value&quot;:&quot;{'status': 'accepted', 'lead_id': '2817581000004477198'}&quot;,&quot;style&quot;:&quot;primary&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;name&quot;:&quot;reject_opportunity&quot;,&quot;text&quot;:&quot;Reject Opportunity&quot;,&quot;type&quot;:&quot;button&quot;,&quot;value&quot;:&quot;{'status': 'rejected', 'lead_id': '2817581000004477198'}&quot;,&quot;style&quot;:&quot;default&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;name&quot;:&quot;junk_opportunity&quot;,&quot;text&quot;:&quot;Trash Opportunity&quot;,&quot;type&quot;:&quot;button&quot;,&quot;value&quot;:&quot;{'status': 'junk', 'lead_id': '2817581000004477198'}&quot;,&quot;style&quot;:&quot;danger&quot;,&quot;confirm&quot;:{&quot;text&quot;:&quot;This will remove the Opportunity from Zoho. Only an Admin can get it back.&quot;,&quot;title&quot;:&quot;Are you sure?&quot;,&quot;ok_text&quot;:&quot;Yes, the is junk&quot;,&quot;dismiss_text&quot;:&quot;No, let me select another opti\u2026&quot;}}]}],&quot;type&quot;:&quot;message&quot;,&quot;subtype&quot;:&quot;bot_message&quot;,&quot;ts&quot;:&quot;1523913611.000185&quot;},&quot;response_url&quot;:&quot;https:\/\/hooks.slack.com\/actions\/T1ALNULAW\/348883363591\/reGOxJhceXxqZGoyWRpLUvnp&quot;,&quot;trigger_id&quot;:&quot;347732310771.44702972370.b604b70c545d49c0a56ff390f19ac0f6&quot;}" />
               </KeyValuePair>
             </list>
           </option>
@@ -525,10 +534,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="J. Levine Slack App" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/models/slack.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -575,10 +584,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.app" />
-        <item index="1" class="java.lang.String" itemvalue="Python.New_Opportuntiy_Message" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Slack_Hub" />
-        <item index="3" class="java.lang.String" itemvalue="Python.slack" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_utils" />
+        <item index="1" class="java.lang.String" itemvalue="Python.slack" />
+        <item index="2" class="java.lang.String" itemvalue="Python.slack" />
+        <item index="3" class="java.lang.String" itemvalue="Python.New_Opportuntiy_Message" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Slack_Hub" />
       </list>
     </recent_temporary>
   </component>
@@ -611,11 +620,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="4" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="4" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -625,7 +635,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="23" width="1920" height="1017" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="23" width="1920" height="1017" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -698,32 +708,15 @@
           <line>155</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/models/slack.py</url>
-          <line>87</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/logic/Slack_Hub.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="48" />
+      <option name="time" value="54" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/json/Opportunity_Rejected.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/json/Opportunity_Junked.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -805,9 +798,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#27#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -887,13 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/New_Opportuntiy_Message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/accepted_opp.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -907,16 +891,6 @@
         <state relative-caret-position="153">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/zoho_crm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2737">
-          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#27#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,16 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#27#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.http">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1002,10 +966,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/Opportunity_Junked.py">
+    <entry file="file://$PROJECT_DIR$/src/json/Opportunity_Expired.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1018,55 +982,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/Opportunity_Expired.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="99" column="8" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/Slack_Hub.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/Opportunity_Followup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logic/New_Opportunity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="298">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/zoho_crm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1324">
+          <caret line="150" column="46" lean-forward="true" selection-start-line="150" selection-start-column="46" selection-end-line="150" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/slack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        <state relative-caret-position="-476">
+          <caret line="80" column="39" lean-forward="true" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="95" column="21" lean-forward="true" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/Opportunity_Followup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/Opportunity_Junked.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/New_Opportuntiy_Message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/Slack_Hub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

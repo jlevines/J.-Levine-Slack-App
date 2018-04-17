@@ -39,7 +39,7 @@ def hub(data):
             return response
 
         if value['status'] == 'junk':
-            update = Record.update(id=value['lead_id'],
+            update = Record('Leads').update(id=value['lead_id'],
                                    data=[{
                                        'Stage': 'Abandoned',
                                        'Lead Status': 'Inactive'

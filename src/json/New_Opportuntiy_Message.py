@@ -28,8 +28,8 @@ def message(name, id, email="", phone="", main=""):
     actions[2].new_confirmation(
         title="Are you sure?",
         text="This will remove the Opportunity from Zoho. Only an Admin can get it back.",
-        ok_text="Yes, the is junk",
-        dismiss_text="No, let me select another option"
+        ok_text="Yes, this is junk",
+        dismiss_text="No, don't delete this."
     )
 
     built_actions = [
@@ -40,6 +40,7 @@ def message(name, id, email="", phone="", main=""):
 
     attachment = Attachment(
         title="New Opportunity",
+        text="A new opportunity has been made available to you.",
         callback_id="new_opp_attachment",
         fallback="Opportunity Url: {}".format("https://crm.zoho.com/crm/EntityInfo.do?module=Leads&id={}".format(id)),
         color="#3de5ff",
