@@ -1,3 +1,5 @@
+import json
+
 from decouple import config
 from flask import Flask, redirect, request, jsonify
 import src.models.zoho_crm as Zoho
@@ -28,7 +30,9 @@ def oauth2callback():
 
 @app.route('/hub', methods = ['POST'])
 def slack_hub():
+
     data = request.form['payload']
+    if logging: print("---\n{}\n---".format(json.loads(data)))
     response = hub(data)
     return jsonify(response)
 
@@ -36,6 +40,7 @@ def slack_hub():
 def new():
     incoming = request
     data = incoming.form
+    if logging: print("---\n{}\n---".format(data))
     response = new_opportunity(data)
     return "success"
 
@@ -43,6 +48,7 @@ def new():
 def assign():
     incoming = request
     data = incoming.form
+    if logging:print("---\n{}\n---".format(data))
     response = assigned_opportunity(data['owner'],data['lead_id'])
     return "success"
 
