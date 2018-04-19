@@ -4,6 +4,7 @@ import src.models.zoho_crm as Zoho
 from urllib import parse
 from src.logic.New_Opportunity import new_opportunity
 from src.logic.Slack_Hub import hub
+from src.logic.Assigned_Opportunity import assigned_opportunity
 
 app = Flask(__name__)
 logging = config('Logging', cast=bool)
@@ -36,6 +37,13 @@ def new():
     incoming = request
     data = incoming.form
     response = new_opportunity(data)
+    return "success"
+
+@app.route('/assign', methods = ['POST'])
+def assign():
+    incoming = request
+    data = incoming.form
+    response = assigned_opportunity(data['owner'],data['lead_id'])
     return "success"
 
 if __name__ == '__main__':

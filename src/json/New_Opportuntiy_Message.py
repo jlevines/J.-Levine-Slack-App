@@ -16,26 +16,11 @@ def message(name, id, email="", phone="", main=""):
             type="button",
             style="default",
             value=str({"status": "rejected", "lead_id": id})
-        ),
-        Action(
-            name="junk_opportunity",
-            text="Trash Opportunity",
-            type="button",
-            style="danger",
-            value=str({"status": "junk", "lead_id": id})
-        )
-    ]
-    actions[2].new_confirmation(
-        title="Are you sure?",
-        text="This will remove the Opportunity from Zoho. Only an Admin can get it back.",
-        ok_text="Yes, this is junk",
-        dismiss_text="No, don't delete this."
-    )
+        )]
 
     built_actions = [
         actions[0].built_message,
-        actions[1].built_message,
-        actions[2].built_message
+        actions[1].built_message
     ]
 
     attachment = Attachment(
