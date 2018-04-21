@@ -7,14 +7,14 @@ from decouple import config
 from src.logic.Opportunity_Followup import opp_followup
 from src.common.settings import testing, logging
 
-def assigned_opportunity(owner,lead_id):
+def assigned_opportunity(lead_id):
     if logging: print("**************************\nassigned_opportunity started")
     bot_token = config("Slackbot_Token", cast=str)
     lead_details = Zoho.Record("Leads").get_record(lead_id)
     lead_name = "{}{}".format("{} ".format(lead_details["First_Name"]) if "First_Name" in lead_details else "",
                               lead_details["Last_Name"])
 
-    convo = Conversation(owner, target_type="user", token=bot_token)
+    convo = Conversation(lead_details['Owner']['name'], target_type="user", token=bot_token)
 
     response = convo.post_message(new_opp_message(
         name=lead_name,
